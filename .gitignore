@@ -45,7 +45,7 @@ Contents/Resources/Wine.bundle/Contents/Resources/lib/sane
 Contents/Resources/wineprefix/dosdevices/c:
 
 # Framework
-Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
+#Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
 
 
 #!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions
