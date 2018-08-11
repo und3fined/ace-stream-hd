@@ -94,6 +94,14 @@ ln -sf Versions/Current/Resources Resources
 ln -sf Versions/Current/Headers Headers
 ln -sf Versions/Current/KBActionWindow KBActionWindow
 
+cd "$DIR/Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions"
+ln -sf A Current
+
+cd "$DIR/Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework"
+ln -sf Versions/Current/Resources Resources
+ln -sf Versions/Current/Headers Headers
+ln -sf Versions/Current/WBottler WBottler
+
 echo "Patch: successful"
 
 echo "Script starting."
