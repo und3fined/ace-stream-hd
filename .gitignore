@@ -48,18 +48,18 @@ Contents/Resources/wineprefix/dosdevices/c:
 Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
 
 
-!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions
-!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions/A
-Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/*
+#!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions
+#!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions/A
+#Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/*
 
-Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/*
-!Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions/A
+#Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/*
+#!Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions/A
 
-Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/*
-!Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/Versions/A
+#Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/*
+#!Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/Versions/A
 
-Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/*
-!Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A
+#Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/*
+#!Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A
 
 # Doc
 Contents/Resources/Wine.bundle/Contents/Resources/doc
@@ -69,3 +69,8 @@ Contents/Resources/Wine.bundle/Contents/Resources/share/gtk-doc
 # vs code
 .vscode
 Contents/Resources/wineprefix/drive_c/users/boone/Application Data/ACEStream/engine/acestream.log
+
+#Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/*
+#!Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions/A
+#Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/*
+#!Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A
