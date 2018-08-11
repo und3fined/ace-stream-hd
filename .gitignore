@@ -3,3 +3,40 @@ com.acestream.acestream-dep_149243977414804
 Resources/wineprefix/drive_c/users
 !Resources/wineprefix/drive_c/users/boone
 !Resources/wineprefix/drive_c/users/Public
+
+# lib
+libasprintf.dylib
+libexslt.dylib
+libfreetype.dylib
+libgettextlib.dylib
+libgettextpo.dylib
+libgettextsrc.dylib
+libgphoto2.dylib
+libgphoto2_port.dylib
+libgsm.dylib
+libintl.dylib
+libjpeg.dylib
+liblcms2.dylib
+libltdl.dylib
+libmpg123.dylib
+libpng.dylib
+libpng16.dylib
+libsane.dylib
+libtiff.dylib
+libtiffxx.dylib
+libusb-1.0.dylib
+libusb.dylib
+libwine.1.dylib
+libwine.dylib
+libxml2.dylib
+libxslt.dylib
+
+# Drive
+Contents/Resources/wineprefix/dosdevices/c:
+Contents/Resources/wineprefix/dosdevices/z:
+
+# Framework
+Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
+
+# vs code
+.vscode
