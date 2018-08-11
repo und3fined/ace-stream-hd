@@ -59,6 +59,8 @@ Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework
 
 # Doc
 Contents/Resources/Wine.bundle/Contents/Resources/doc
+Contents/Resources/Wine.bundle/Contents/Resources/share/doc
+Contents/Resources/Wine.bundle/Contents/Resources/share/gtk-doc
 
 # vs code
 .vscode
