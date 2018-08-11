@@ -58,6 +58,7 @@ ln -sf libwine.1.dylib libwine.dylib
 ln -sf libxml2.2.dylib libxml2.dylib
 ln -sf libxslt.1.dylib libxslt.dylib
 
+
 cd "$DIR/Contents/Resources/Wine.bundle/Contents/Resources/bin"
 ln -sf winegcc winecpp
 ln -sf winegcc wineg++
@@ -67,6 +68,7 @@ cd "$DIR/Contents/Resources/Wine.bundle/Contents/Resources/include"
 ln -sf libpng16/png.h png.h
 ln -sf libpng16/pngconf.h pngconf.h
 ln -sf libpng16/pnglibconf.h pnglibconf.h
+ln -sf gphoto2 gphoto2/gphoto2
 
 cd "$DIR/Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions"
 ln -sf A Current

@@ -31,12 +31,34 @@ libwine.dylib
 libxml2.dylib
 libxslt.dylib
 
+Contents/Resources/Wine.bundle/Contents/Resources/bin/winecpp
+Contents/Resources/Wine.bundle/Contents/Resources/bin/wineg++
+Contents/Resources/Wine.bundle/Contents/Resources/bin/libpng-config
+
+Contents/Resources/Wine.bundle/Contents/Resources/include/png.h
+Contents/Resources/Wine.bundle/Contents/Resources/include/pngconf.h
+Contents/Resources/Wine.bundle/Contents/Resources/include/pnglibconf.h
+Contents/Resources/Wine.bundle/Contents/Resources/include/gphoto2/gphoto2
+
+Contents/Resources/Wine.bundle/Contents/Resources/lib/sane
+
 # Drive
 Contents/Resources/wineprefix/dosdevices/c:
-Contents/Resources/wineprefix/dosdevices/z:
 
 # Framework
 Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
+
+Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework
+!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions/A
+
+Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework
+!Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions/A
+
+Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework
+!Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/Versions/A
+
+# Doc
+Contents/Resources/Wine.bundle/Contents/Resources/doc
 
 # vs code
 .vscode
