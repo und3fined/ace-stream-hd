@@ -1,7 +1,7 @@
 .DS_Store
 com.acestream.acestream-dep_149243977414804
-Resources/wineprefix/drive_c/users
-!Resources/wineprefix/drive_c/users/boone
+Contents/Resources/wineprefix/drive_c/users/*
+!Contents/Resources/wineprefix/drive_c/users/boone
 
 # lib
 libasprintf.dylib
@@ -47,16 +47,18 @@ Contents/Resources/wineprefix/dosdevices/c:
 # Framework
 Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A/Frameworks/KBActionWindow.framework
 
-Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework
-!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions/A
 
-Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework
+!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions
+!Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/Versions/A
+Contents/Resources/Wine.bundle/Contents/Frameworks/WBottler.framework/*
+
+Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/*
 !Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions/A
 
-Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework
+Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/*
 !Contents/Resources/Winetricks.app/Contents/Frameworks/KBActionWindow.framework/Versions/A
 
-Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework
+Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/*
 !Contents/Resources/Winetricks.app/Contents/Frameworks/WBottler.framework/Versions/A
 
 # Doc
