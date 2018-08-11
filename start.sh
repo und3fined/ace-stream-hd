@@ -5,7 +5,6 @@ echo "- ACE Stream HD for macOS."
 echo "- Made by github.com/und3fined"
 echo "- Original source github.com/und3fined/ace-stream-hd"
 echo ""
-echo ""
 
 SOURCE="${BASH_SOURCE[0]}"
 while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
@@ -25,7 +24,6 @@ echo "Patch: starting"
 
 cd "$DIR/Contents/Resources/wineprefix/dosdevices"
 ln -sf ../drive_c c:
-ln -sf / z:
 
 cd "$DIR/Contents/Resources/Wine.bundle/Contents/Resources/lib"
 ln -sf libasprintf.0.dylib libasprintf.dylib
@@ -60,7 +58,6 @@ ln -sf libwine.1.dylib libwine.dylib
 ln -sf libxml2.2.dylib libxml2.dylib
 ln -sf libxslt.1.dylib libxslt.dylib
 
-
 cd "$DIR/Contents/Resources/Wine.bundle/Contents/Resources/bin"
 ln -sf winegcc winecpp
 ln -sf winegcc wineg++
@@ -82,7 +79,7 @@ ln -sf Versions/Current/Headers Headers
 cd "$DIR/Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework/Versions"
 ln -sf A Current
 
-cd "$DIR/Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework
+cd "$DIR/Contents/Resources/Wine.bundle/Contents/Frameworks/Sparkle.framework"
 ln -sf Versions/Current/Sparkle Sparkle
 ln -sf Versions/Current/Resources Resources
 ln -sf Versions/Current/Headers Headers
@@ -95,10 +92,12 @@ ln -sf Versions/Current/Resources Resources
 ln -sf Versions/Current/Headers Headers
 ln -sf Versions/Current/KBActionWindow KBActionWindow
 
-echo "Patch: done"
+echo "Patch: successful"
 
-echo "Script starting (Ctrl + C: stop script)."
+echo "Script starting."
 echo ""
 
 cd $DIR
 bash "$DIR/Contents/MacOS/startwine"
+
+
