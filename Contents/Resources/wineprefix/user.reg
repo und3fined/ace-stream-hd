@@ -844,13 +844,13 @@ WINE REGISTRY Version 2
 #time=1d2b787f8ddf462
 "Audio"="coreaudio"
 
-[Software\\Wine\\Fonts] 1533994842
-#time=1d43178e60aa864
+[Software\\Wine\\Fonts] 1533995651
+#time=1d4317ac87c0098
 "Codepages"="1252,437"
 "LogPixels"=dword:00000060
 
-[Software\\Wine\\Fonts\\External Fonts] 1533994842
-#time=1d43178e610be70
+[Software\\Wine\\Fonts\\External Fonts] 1533995652
+#time=1d4317ac8821ffa
 "@Apple SD Gothic Neo Regular"="Z:\\System\\Library\\Fonts\\AppleSDGothicNeo.ttc"
 "@Heiti SC Light"="Z:\\System\\Library\\Fonts\\STHeiti Light.ttc"
 "@Heiti SC Medium"="Z:\\System\\Library\\Fonts\\STHeiti Medium.ttc"
